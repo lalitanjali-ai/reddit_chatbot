@@ -1,6 +1,6 @@
 # Chatbot using Multi-head Attention Transformers and GPT2
 
-###Motivatation:
+### Motivatation:
 
 Transformers are a recent and promising neural network architecture which have promoted significant breakthroughs in NLP research. The signature architecture of transformers is their use of “attention” heads rather than recurrent network components for modelling sequential data with temporal correlations. This architecture has proven adept at handling tasks such as question answering, sentiment analysis, neural translation, text summarization, and many more. However, as a class of machine learning models, they require onerous amounts of training data and compute to perform reasonably or even achieve grammatical correctness on sequence to sequence tasks; for example, GPT-2 trained on approximately half of a trillion word tokens and used 256 TPUs, and XLNet racked up $245,000 worth of expenses using 512 TPUs.
 Luckily for us, many of these models are open sourced. Our motivation for this final project was to leverage open sourced transformer architectures and compare and contrast their performance in different domains to a transformer with multihead attention we built from scratch. 
@@ -10,7 +10,7 @@ We identified two problem areas to explore in training our respective transforme
 The second problem area we decided to investigate in the scope of our final project was text summarization. Text summarization involves succinctly stating the most important content given a greater amount of text, and we felt was the next step up in difficulty for testing our transformer models. Specifically, while AI chatbots are difficult to assess, as even “wrong” answers could be interpreted as sarcasm, text summarization output can be assessed based on how apt the summarization was of the original content. In the scope of our final project, we created both a transformer from scratch and a transformer finetuned on the existing GPT-2 small model, trained on different subreddits comprising two major subjects (news and science) to produce AI chatbots, compared and contrasted abstractive summarization using a finetuned GPT-2 model to extractive summarization, and evaluated the final results. 
 
 
-###This project can be delimited into the following high-level sections:
+### This project can be delimited into the following high-level sections:
 
 1)	Building an AI chatbot using multi attention-head transformers and transfer learning with GPT2
 2)	Extractive summarization using spaCy and abstractive summarization using transfer learning with GPT2
