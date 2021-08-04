@@ -1,6 +1,6 @@
 # Chatbot using Multi-head Attention Transformers and GPT2
 
-### Motivatation:
+### Motivation:
 
 Transformers are a recent and promising neural network architecture which have promoted significant breakthroughs in NLP research. The signature architecture of transformers is their use of “attention” heads rather than recurrent network components for modelling sequential data with temporal correlations. This architecture has proven adept at handling tasks such as question answering, sentiment analysis, neural translation, text summarization, and many more. However, as a class of machine learning models, they require onerous amounts of training data and compute to perform reasonably or even achieve grammatical correctness on sequence to sequence tasks; for example, GPT-2 trained on approximately half of a trillion word tokens and used 256 TPUs, and XLNet racked up $245,000 worth of expenses using 512 TPUs.
 Luckily for us, many of these models are open sourced. Our motivation for this final project was to leverage open sourced transformer architectures and compare and contrast their performance in different domains to a transformer with multihead attention we built from scratch. 
